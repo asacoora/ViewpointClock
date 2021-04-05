@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ViewpointClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CST-La-V9L">
+                                <rect key="frame" x="0.0" y="44" width="414" height="60"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="PIS-xC-Wm1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7wG-kV-aG5" customClass="ClockView" customModule="ViewpointClock" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="104" width="414" height="252.5"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cpP-gy-Wb7" customClass="OneDayClock" customModule="ViewpointClock" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="609.5" width="414" height="252.5"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5dy-H1-uFi" customClass="CounterClockView" customModule="ViewpointClock" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="356.5" width="414" height="253"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7wG-kV-aG5" secondAttribute="trailing" id="1Ks-yl-UBG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5dy-H1-uFi" secondAttribute="trailing" id="7C3-bB-gv6"/>
+                            <constraint firstItem="CST-La-V9L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8E4-Sp-oMg"/>
+                            <constraint firstItem="5dy-H1-uFi" firstAttribute="top" secondItem="7wG-kV-aG5" secondAttribute="bottom" id="ADd-FD-78t"/>
+                            <constraint firstItem="CST-La-V9L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F6e-FB-smG"/>
+                            <constraint firstItem="cpP-gy-Wb7" firstAttribute="height" secondItem="7wG-kV-aG5" secondAttribute="height" id="NG2-FE-RYY"/>
+                            <constraint firstItem="cpP-gy-Wb7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OqX-LX-HAr"/>
+                            <constraint firstItem="7wG-kV-aG5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XDg-Za-ab4"/>
+                            <constraint firstItem="5dy-H1-uFi" firstAttribute="height" secondItem="7wG-kV-aG5" secondAttribute="height" id="jTY-Ha-GY4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cpP-gy-Wb7" secondAttribute="bottom" id="kV7-oe-5xe"/>
+                            <constraint firstItem="cpP-gy-Wb7" firstAttribute="top" secondItem="5dy-H1-uFi" secondAttribute="bottom" id="q9u-iH-MGF"/>
+                            <constraint firstItem="5dy-H1-uFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t6z-pW-HIj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CST-La-V9L" secondAttribute="trailing" id="xWC-kj-Gzf"/>
+                            <constraint firstItem="7wG-kV-aG5" firstAttribute="top" secondItem="CST-La-V9L" secondAttribute="bottom" id="yez-qc-Ouq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cpP-gy-Wb7" secondAttribute="trailing" id="yf0-eg-xYk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="clockView" destination="7wG-kV-aG5" id="a5H-qM-J8Z"/>
+                        <outlet property="counterClockView" destination="5dy-H1-uFi" id="QQu-Y3-q9i"/>
+                        <outlet property="oneDayClockView" destination="cpP-gy-Wb7" id="rfB-Af-iIP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>

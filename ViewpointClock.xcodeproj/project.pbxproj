@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F597B5E25107D17004BCBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F597B5D25107D17004BCBAB /* AppDelegate.swift */; };
+		8F597B6025107D17004BCBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F597B5F25107D17004BCBAB /* SceneDelegate.swift */; };
+		8F597B6225107D17004BCBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F597B6125107D17004BCBAB /* ViewController.swift */; };
+		8F597B6525107D17004BCBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F597B6325107D17004BCBAB /* Main.storyboard */; };
+		8F597B6725107D1D004BCBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F597B6625107D1D004BCBAB /* Assets.xcassets */; };
+		8F597B6A25107D1D004BCBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F597B6825107D1D004BCBAB /* LaunchScreen.storyboard */; };
+		8F597B7225108F9A004BCBAB /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F597B7125108F9A004BCBAB /* ClockView.swift */; };
+		8F597B742513488B004BCBAB /* CounterClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F597B732513488A004BCBAB /* CounterClockView.swift */; };
+		8F597B7625134C25004BCBAB /* OneDayClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F597B7525134C25004BCBAB /* OneDayClock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F597B5A25107D17004BCBAB /* ViewpointClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewpointClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F597B5D25107D17004BCBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F597B5F25107D17004BCBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F597B6125107D17004BCBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F597B6425107D17004BCBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F597B6625107D1D004BCBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F597B6925107D1D004BCBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F597B6B25107D1D004BCBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F597B7125108F9A004BCBAB /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ClockView.swift; path = ViewpointClock/ClockView.swift; sourceTree = "<group>"; };
+		8F597B732513488A004BCBAB /* CounterClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CounterClockView.swift; path = ViewpointClock/CounterClockView.swift; sourceTree = "<group>"; };
+		8F597B7525134C25004BCBAB /* OneDayClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OneDayClock.swift; path = ViewpointClock/OneDayClock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F597B5725107D17004BCBAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F597B5125107D17004BCBAB = {
+			isa = PBXGroup;
+			children = (
+				8F597B7525134C25004BCBAB /* OneDayClock.swift */,
+				8F597B732513488A004BCBAB /* CounterClockView.swift */,
+				8F597B7125108F9A004BCBAB /* ClockView.swift */,
+				8F597B5C25107D17004BCBAB /* ViewpointClock */,
+				8F597B5B25107D17004BCBAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F597B5B25107D17004BCBAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F597B5A25107D17004BCBAB /* ViewpointClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F597B5C25107D17004BCBAB /* ViewpointClock */ = {
+			isa = PBXGroup;
+			children = (
+				8F597B5D25107D17004BCBAB /* AppDelegate.swift */,
+				8F597B5F25107D17004BCBAB /* SceneDelegate.swift */,
+				8F597B6125107D17004BCBAB /* ViewController.swift */,
+				8F597B6325107D17004BCBAB /* Main.storyboard */,
+				8F597B6625107D1D004BCBAB /* Assets.xcassets */,
+				8F597B6825107D1D004BCBAB /* LaunchScreen.storyboard */,
+				8F597B6B25107D1D004BCBAB /* Info.plist */,
+			);
+			path = ViewpointClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F597B5925107D17004BCBAB /* ViewpointClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F597B6E25107D1D004BCBAB /* Build configuration list for PBXNativeTarget "ViewpointClock" */;
+			buildPhases = (
+				8F597B5625107D17004BCBAB /* Sources */,
+				8F597B5725107D17004BCBAB /* Frameworks */,
+				8F597B5825107D17004BCBAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewpointClock;
+			productName = ViewpointClock;
+			productReference = 8F597B5A25107D17004BCBAB /* ViewpointClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F597B5225107D17004BCBAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "kisoo Um";
+				TargetAttributes = {
+					8F597B5925107D17004BCBAB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 8F597B5525107D17004BCBAB /* Build configuration list for PBXProject "ViewpointClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F597B5125107D17004BCBAB;
+			productRefGroup = 8F597B5B25107D17004BCBAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F597B5925107D17004BCBAB /* ViewpointClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F597B5825107D17004BCBAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F597B6A25107D1D004BCBAB /* LaunchScreen.storyboard in Resources */,
+				8F597B6725107D1D004BCBAB /* Assets.xcassets in Resources */,
+				8F597B6525107D17004BCBAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F597B5625107D17004BCBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F597B6225107D17004BCBAB /* ViewController.swift in Sources */,
+				8F597B7225108F9A004BCBAB /* ClockView.swift in Sources */,
+				8F597B5E25107D17004BCBAB /* AppDelegate.swift in Sources */,
+				8F597B6025107D17004BCBAB /* SceneDelegate.swift in Sources */,
+				8F597B7625134C25004BCBAB /* OneDayClock.swift in Sources */,
+				8F597B742513488B004BCBAB /* CounterClockView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F597B6325107D17004BCBAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F597B6425107D17004BCBAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F597B6825107D1D004BCBAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F597B6925107D1D004BCBAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F597B6C25107D1D004BCBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F597B6D25107D1D004BCBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F597B6F25107D1D004BCBAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewpointClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asacoora.ViewpointClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F597B7025107D1D004BCBAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewpointClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asacoora.ViewpointClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F597B5525107D17004BCBAB /* Build configuration list for PBXProject "ViewpointClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F597B6C25107D1D004BCBAB /* Debug */,
+				8F597B6D25107D1D004BCBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F597B6E25107D1D004BCBAB /* Build configuration list for PBXNativeTarget "ViewpointClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F597B6F25107D1D004BCBAB /* Debug */,
+				8F597B7025107D1D004BCBAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F597B5225107D17004BCBAB /* Project object */;
+}
